@@ -1,4 +1,6 @@
 # Dependencies
+commands/__pycache__
+venv
 node_modules/
 npm-debug.log*
 
