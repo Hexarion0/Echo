@@ -16,7 +16,8 @@ logging.getLogger('discord').setLevel(logging.INFO)
 intents = discord.Intents.default()
 intents.message_content = True
 
-bot = commands.Bot(command_prefix="!", intents=intents)
+bot = commands.Bot(command_prefix=".", intents=intents)
+bot.remove_command('help')
 
 @bot.event
 async def on_ready():
